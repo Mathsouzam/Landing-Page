@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Saira Extra Condensed', sans-serif;
+
+}
+
+body{
+    font-size: 100%;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    box-shadow: 0 6px 8px #ccc;
+    transition: all 0.6s;
+    background: white;
+    width: 100%; 
+    gap: 30px;
+}
+.navegacao-menu{
+    display: flex;
+    gap: 30px;
+    
+}
+.navegacao-menu-item{
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+}
+.navegacao-menu-item:hover{
+    color: #28EEFC;
+}
+.sol{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.6s;
+    display: flex;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+section{
+    padding: 60px;
+}
+.conteudo-primario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    min-height: 900px;
+    flex-wrap: wrap;
+}
+.primario-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+.primario-escrito-titulo{
+    font-size: 70px;
+}
+span{
+    color: #28EEFC;
+}
+.primario-escrito-subtitulo{
+    font-size: 40px;
+}
+.primario-escrito-paragrafo{
+    font-size: 25px;
+}
+.primario-escrito-botao{
+    background-color: #28EEFC;
+    width: 200px;
+    height: 60px;
+    border: none;
+    font-size: 25px;
+    border-radius: 40px;
+}
+.primario-escrito-botao:hover{
+    background-color: #28eefc83;
+}
+.primario-imagem{
+    max-width: 500px;
+    border-radius: 50%;
+    border: 4px solid #28eefc8a;
+}
+.conteudo-secundario{
+    background-color: #19A2E6;
+    background-color: #F1F3F5;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.secundario-titulo{
+    font-size: 40px;
+    text-align: left;
+}
+.secundario-paragrafo{
+    font-size: 25px;
+    text-align: justify;
+}
+.conteudo-terciario{
+    background-color: #1C78FE;
+    background-color: #19A2E6;
+    background-color: white;
+    text-align: center;
+}
+.terciario{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+
+}
+.terciario-titulo{
+    font-size: 40px;
+}
+.lista-terciario{
+    list-style-type: none;
+    font-size: 25px;
+    color: #909192;
+}
+.conteudo-quaternario{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    background-color: #19E6BA;
+    background-color: white;
+    gap: 100px;
+}
+.quaternario{
+    border: 1px solid ;
+    background-color: #428DFF;
+    width: 20%;
+    border-radius: 10px
+}
+.quaternario-titulo{
+    font-size: 40px;
+}
+.lista-quaternario{
+    font-size: 25px;
+    list-style: square;
+    list-style-position: inside;
+    text-align: justify;
+    padding: 10% 33%;
+}
+.quaternario-dois{
+    border: 1px solid ;
+    background-color: #428DFF;
+    width: 30%;
+    border-radius: 10px
+   
+}
+.quaternario-titulo-dois{
+    font-size: 40px;
+}
+.quaternario-paragrafo{
+    font-size: 25px;
+}
+.quaternario-tres{
+    border: 1px solid ;
+    background-color: #428DFF;
+    width: 20%;
+    border-radius: 10px;
+}
+.quaternario-titulo-tres{
+    font-size: 40px;
+}
+.quaternario-paragrafo-dois{
+    font-size: 25px;
+}
+.conteudo-cinco{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #F1F3F5;
+}
+.quinto-um{
+    border: 1px solid ;
+    background-color: #428DFF;
+    width: 400px;
+    border-radius: 10px;
+}
+.quinto-titulo{
+    text-align: center;
+    font-size: 40px;
+}
+.quinto-paragrafo{
+    font-size: 25px;
+}
+.quinto-dois{
+    border: 1px solid ;
+    background-color: #428DFF;
+    height: 700px;
+    width: 400px;
+    border-radius: 10px;
+}
+.quinto-titulo-dois{
+    text-align: center;
+    font-size: 40px;
+}
+.quinto-lista{
+    font-size: 25px;
+    list-style: square;
+    list-style-position: inside;
+    text-align: left;
+    width: 200px;
+    height: 200px;
+    margin-left: 120px;
+    padding-top: 30px;
+}
+.quinto-lista > li{
+    color: #28EEFC;
+}
+.quinto-tres{
+    border: 1px solid ;
+    background-color: #428DFF;
+    border-radius: 10px;
+}
+.quinto-titulo-tres{
+    text-align: center;
+    font-size: 40px;
+}
+dt{
+    font-size: 25px;
+    color: #28EEFC;
+}
+dd{ 
+    font-size: 25px;
+}
+.conteudo-seis{
+    display: flex;
+    flex-direction: column;
+}
+.titulo-seis{
+    font-size: 40px;
+    text-align: left;
+}
+.seis-paragrafo{
+    font-size: 25px;
+    text-align: justify;
+
+}
+
+/* PAGINA CURRIULO */
+.conteudo-curriculo-primeiro{
+    display: flex;
+    flex-direction: column;
+    background-color: #F1F3F5;
+}
+
+.papo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #F1F3F5;
+    background-color: #428DFF;
+    width: 800px;
+    margin-left: 460px;
+    border: 1px solid;
+    border-radius: 50px;
+
+}
+
+.conteudo-curriculo-titulo{
+    font-size: 70px;
+}
+.titulos{
+    font-size: 40px;   
+}
+.paragrafos-curriculo{
+    font-size: 20px;
+    text-align: center;   
+}
+.lista-curriculo{
+    font-size: 20px;
+    list-style: none;
+}
+.curriculo-terceiro-titulo{
+    font-size: 25px;
+}
+/* Pagina github */
+.conteudo-github{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+.primeiro-github{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.titulo-github{
+    font-size: 70px;
+    color: #28EEFC;
+}
+.paragrafo-github{
+    font-size: 25px;
+}
+.imagem-github{
+    width: 1000px; 
+}
+/* Pagina serviços */
+.conteudo-tabela{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+}
+.tabela-servico{
+    align-items: center;
+}
+Table{
+    Width: 700px;
+    border-collapse: collapse;
+}
+.titulo-servico{
+    font-size: 70px;
+}
+td,th{
+    border: 1px solid black;
+    padding: 10px;
+}
+thead{
+    background-color: #28EEFC;
+}
+th{
+    font-size: 30px;
+}
+td{
+    font-size: 20px;
+}
+
+/* formulario pagina */
+
+.formulario-sessao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo-formulario{
+    font-size: 70px;
+}
+.formulario{
+    font-size: 25px;
+    border: 1px solid;
+    border-radius: 20px; 
+    padding-left: 250px;
+    background-color:#F1F3F5;
+}
+.aumentar{
+    width: 700px;
+    
+}
+#botao-enviar{
+    background-color: #428DFF;
+    width: 120px;
+    border: 1px solid;
+    border-radius: 20px;
+} 
+#botao-enviar:hover{
+   background-color:#428eff96 ; 
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode section{
+    background-color: black;
+}
+.dark-mode header{
+    background-color: black;
+    color: white; 
+}
+.dark-mode .cabecalho{
+    position: relative; z-index: 10;
+    box-shadow: 0 6px 8px #7c79798e;
+}
+.dark-mode .navegacao-menu-item{
+    color: white;
+}
+.dark-mode .navegacao-menu-item:hover{
+    color: #28EEFC;
+}
+.dark-mode .sol{
+    background-color: black;
+}
+.dark-mode .tabela-titulo {
+    border: 1px solid white;
+
+}
+.dark-mode .tabela-linha{
+    border: 1px solid white;
+}
+.dark-mode label{
+    color: black;
+}

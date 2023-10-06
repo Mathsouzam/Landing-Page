@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <div>
+            <nav class="navegacao-menu">
+                <a href="index.html" class="navegacao-menu-item">Home</a>
+                <a href="curriculo.html" class="navegacao-menu-item">Currículo</a>
+                <a href="Github.html" class="navegacao-menu-item"> Github</a>
+                <a href="Servicos.html" class="navegacao-menu-item">Serviços</a>
+                <a href="formulario.html" class="navegacao-menu-item">Contato</a>
+            </nav>
+        </div>
+        <div class="lua"><button class="sol" onclick="myFunction()"><img src="imagem/sun-and-moon.png" alt=""></button></div>
+    </header>
+
+     <main class="formulario-total">
+        
+         <section class="formulario-sessao">
+             <div>
+                 <h1 class="titulo-formulario">Formulário Para Contato</h1>
+             </div>
+                 <div class="aumentar">
+                     <form class="formulario">
+                                     <label for="nome">Nome:</label>
+                                     <input type="text" id="nome" name="nome" required>
+                                     <br><br>
+                                     <label for="email">E-mail:</label>
+                                     <input type="email" id="email" name="email" required>
+                                     <br><br>
+                                     <label for="telefone">Tefelone:</label>
+                                     <input type="tel" id="telefone" name="telefone" required>
+                                     <br><br>
+                                     <label>Pessoa:</label><br>
+                                     <input type="radio" id="pessoa_fisica" name="tipo_cliente" value="pessoa_fisica">
+                                     <label for="pessoa_fisica">Física</label><br>
+                                     <input type="radio" id="pessoa_juridica" name="tipo_cliente" value="pessoa_juridica">
+                                     <label for="pessoa_juridica">Jurídica</label>
+                                     <br><br>
+                                     <label for="horario">Horarios:</label>
+                                     <select id="horario" name="horario">
+                        <option value="9:00">9:00</option>
+                        <option value="9:30">9:30</option>
+                        <option value="10:00">10:00</option>
+                        <option value="14:00">14:00</option>
+                        <option value="14:30">14:30</option>
+                        <option value="15:00">15:00</option>
+                                     </select>
+                                     <br><br>
+                                     <label>Serviços:</label>
+                                     <input type="checkbox" id="estatico" name="estatico" value="estatico">
+                                     <label for="estatico">Estático</label>
+                                     <input type="checkbox" id="dinamico" name="dinamico" value="dinamico">
+                                     <label for="dinamico">Dinâmico</label>
+                                     <input type="checkbox" id="avancado" name="avancado" value="avancado">
+                                     <label for="avancado">Avançado</label>
+                                     <br><br>
+                                     <label for="comentarios">Comentários:</label><br>
+                                     <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+                                     <br>
+                                     <input type="submit" value="Enviar" id="botao-enviar">
+                     </form>
+                 </div>
+         </section>
+     </main>
+         
+</body>
+</html>
